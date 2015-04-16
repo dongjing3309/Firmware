@@ -158,6 +158,11 @@ then
 	sh /etc/init.d/4020_hk_micro_pcb
 fi
 
+if param compare SYS_AUTOSTART 4050
+then
+	sh /etc/init.d/4050_lumenier_qav250
+fi
+
 #
 # Quad +
 #
